@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "remote-config-admin"
+version = "0.1.0"
+description = "remote config admin using django admin"
+authors = ["Firyal Fakhrilhadi <firyal.fakhril@gmail.com>"]
+license = "GPL-3.0"
+readme = "README.md"
+packages = [{include = "remote_config_admin"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^5.0.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
